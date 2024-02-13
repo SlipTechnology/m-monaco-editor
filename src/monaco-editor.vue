@@ -111,9 +111,9 @@ export default {
     },
     listen () {
       let that = this
-      this.editor.onDidBlurEditor(function () {
-        that.$emit('blur')
-      })
+      // this.editor.onDidBlurEditor(function () {
+      //   that.$emit('blur')
+      // })
       this.editor.onDidFocusEditor(function () {
         that.$emit('focus')
       })
