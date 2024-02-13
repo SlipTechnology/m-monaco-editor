@@ -11,7 +11,7 @@ export default {
     mode: String,
     cdnUrl: {
       type: String,
-      default: 'https://cdn.bootcss.com/monaco-editor/0.13.1/min/vs'
+      default: 'https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/dev/vs'
     },
     requireConfig: Object,
     // 是否同步input

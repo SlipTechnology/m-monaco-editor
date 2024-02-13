@@ -25,7 +25,7 @@ Vue.use(MMonacoEditor) // 注册 m-monaco-editor 组件
 | value     | 内容   | string    | — | —  |
 | theme     | 主题   | string    | vs/vs-dark/hc-dark | vs  |
 | mode     | 语言类型   | string    | [languages](https://microsoft.github.io/monaco-editor/api/modules/monaco.languages.html#getlanguages) | —  |
-| cdnUrl     |  monaco-editor文件链接  | string    | — | https://cdn.bootcss.com/monaco-editor/0.13.1/min/vs  |
+| cdnUrl     |  monaco-editor文件链接  | string    | — | https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/dev/vs  |
 | requireConfig | monaco-editor loader.js 配置   | object | — | —  |
 | syncInput     | 同步内容到value | boolean  | true/false | false  |
 | readOnly     | 仅读   | boolean    | true/false | false  |

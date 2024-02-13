@@ -7,10 +7,10 @@
   "main": "index.js",
   "repository": {
     "type": "https",
-    "url": "git+https://github.com/mengdu/m-monaco-editor"
+    "url": "git+https://github.com/SlipTechnology/m-monaco-editor"
   },
   "bugs": {
-    "url": "https://github.com/mengdu/m-monaco-editor/issues"
+    "url": "https://github.com/SlipTechnology/m-monaco-editor/issues"
   },
   "files": [
     "dist",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "chromedriver": "^121.0.0",
-    "monaco-editor": "^0.13.1",
+    "monaco-editor": "^0.46.0",
     "vue-m-loader": "^1.0.1"
   },
   "devDependencies": {
