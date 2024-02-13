@@ -111,10 +111,10 @@ export default {
     },
     listen () {
       let that = this
-      // this.editor.onDidBlurEditor(function () {
-      //   that.$emit('blur')
-      // })
-      this.editor.onDidFocusEditor(function () {
+      this.editor.onDidBlurEditorWidget(function () {
+        that.$emit('blur')
+      })
+      this.editor.onDidFocusEditorWidget(function () {
         that.$emit('focus')
       })
       this.editor.onDidLayoutChange(function () {
